@@ -61,4 +61,33 @@ python scripts/rpi_inference.py --model models/ecg_model_int8.onnx
 
 
 
-ou bien import le fichier de ecg_pipline in the colab 
+ou bien import le fichier de ecg_pipline dans le colab 
+
+le conection de juputer dans rasspery 
+
+
+le result de execution 
+https://colab.research.google.com/drive/1SqHqGVevhWenbrNqxuFSum7hkK6xJnuL?usp=sharing 
+puis le datasets est plus grand est le connexion tress failble le resulte de eroror fichier not found 
+
+
+
+
+
+
+vido []
+## 💡 Usage Notes & Demo
+
+### Running on Google Colab
+You can import and run the `ecg_pipeline.ipynb` notebook directly in Google Colab for cloud-based execution. [Colab Demo Notebook](https://colab.research.google.com/drive/1SqHqGVevhWenbrNqxuFSum7hkK6xJnuL?usp=sharing)
+
+### Jupyter on Raspberry Pi
+For local execution, you can launch Jupyter Notebook on your Raspberry Pi and run the pipeline. This is ideal for real-time inference and edge deployment.
+
+### Important: Dataset Size & Connectivity
+- The PTB-XL dataset is large (~1.7GB). If your internet connection is slow or unstable, you may encounter errors such as `file not found` during download or execution.
+- For best results, download the dataset in advance and ensure the path is correctly set in your configuration files.
+
+### Demo Video
+Watch a step-by-step demo of launching Jupyter, running the pipeline in Raspberry Pi 5, and handling large datasets: click image
+[![Watch the Demo](./image.png)](https://drive.google.com/file/d/1eq7Eoqm9WBl3ZfSKWlJ6vWOUqN5N7-QL/view?usp=sharing)
